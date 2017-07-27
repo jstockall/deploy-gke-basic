@@ -5,7 +5,7 @@ resources:
       - deploy-gke-basic
     integration: dr-ecr
     pointer:
-      sourceName: "gcr.io/sample-gke/basic-node-deploy-gke"
+      sourceName: "gcr.io/shippable-174014/deploy-gke-basic"
     seed:
       versionName: "latest"
 
@@ -39,8 +39,8 @@ resources:
     type: cluster
     flags:
       - deploy-gke-basic
-    integration: dr-gke
+    integration: GCE
     pointer:
       sourceName : "deploy-gke-basic" #name of the cluster to which we are deploying
-      region: "us-central-1f"
-      namespace: "shippable"
+      region: "us-central1-a"
+      namespace: "cluster-1"
