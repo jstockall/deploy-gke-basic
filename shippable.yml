@@ -16,7 +16,7 @@ env:
     - TESTS_LOC_DIR=$SHIPPABLE_REPO_DIR/tests
     - MOD_LOC=$SHIPPABLE_REPO_DIR/node_modules/.bin/
     # replace with your info - gcr.io/GOOGLE_PROJECT/GCR_REPO
-    - GCR_REPO=gcr.io/shippable-gke/deploy-gke-basic
+    - GCR_REPO=gcr.io/shippable-174014/deploy-gke-basic
 
 build:
 
