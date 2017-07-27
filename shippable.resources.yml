@@ -3,7 +3,7 @@ resources:
     type: image
     flags:
       - deploy-gke-basic
-    integration: dr-ecr
+    integration: shipDH
     pointer:
       sourceName: "gcr.io/shippable-174014/deploy-gke-basic"
     seed:
